@@ -15,3 +15,22 @@ Hotel filters :
 4. Minimum number of stars
 5. Minimum hotel rating
 6. maximum price
+
+# System installation
+Required environment and required tools:
+
+_For the server:_ 
+IDLE for the python language, version 3.9 and downloading socket, sqlite3 and rsa libraries.
+
+_For the customer:_ 
+Studio Android software, and downloading an Emulator, or connecting a phone with Android operating system to a computer.
+A stable internet connection is required in order to create a connection between the client and the server, by sockets.
+
+File locations:
+The server files and the server database are in - server_client/SecretDeals./ 
+
+The files are:
+ .deals.db - and server.py, data.py, city.py
+The application files are in - main/src/app2/App where there is a java folder which has the
+java files. That is, the Activities. Also, there is the res folder where the design files are
+xml. And all the design additions (Assets Vector and more).
