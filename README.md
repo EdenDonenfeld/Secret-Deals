@@ -27,10 +27,11 @@ Studio Android software, and downloading an Emulator, or connecting a phone with
 A stable internet connection is required in order to create a connection between the client and the server, by sockets.
 
 File locations:
-The server files and the server database are in - server_client/SecretDeals./ 
+The server files and the server database are in - server directory. 
 
 The files are:
- .deals.db - and server.py, data.py, city.py
-The application files are in - main/src/app2/App where there is a java folder which has the
-java files. That is, the Activities. Also, there is the res folder where the design files are
-xml. And all the design additions (Assets Vector and more).
+server.py, data.py, city.py and deals.db.
+
+The application files are in - App2/app/src/main where there is a java folder which has the
+java files, containing the Activities. In addition, there is the res folder where the design files are
+.xml. And all the design additions (Vector Assets and more).
