@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_blue"
+    tools:context=".HotelsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flight: "
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginEnd="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="45dp"
+        android:padding="30sp"
+        app:drawableRightCompat="@drawable/ic_baseline_flight_24">
+    </TextView>
+
+    <Button
+        android:id="@+id/flightsLinkButton"
+        android:layout_width="150sp"
+        android:layout_height="65sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/black_light_blue"
+        android:text="Find"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hotel: "
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginEnd="65dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:padding="30sp"
+        app:drawableRightCompat="@drawable/ic_baseline_hotel_24">
+    </TextView>
+
+    <Button
+        android:id="@+id/hotelsLinkButton"
+        android:layout_width="150sp"
+        android:layout_height="65sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/black_light_blue"
+        android:text="Find"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:id="@+id/attractionsLinkTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Attractions: "
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="30sp"
+        app:drawableRightCompat="@drawable/ic_baseline_attractions_24">
+    </TextView>
+
+    <Button
+        android:id="@+id/attractionsLinkButton"
+        android:layout_width="150sp"
+        android:layout_height="65sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/black_light_blue"
+        android:text="Find"
+        android:textSize="18sp"
+        app:cornerRadius="20dp" />
+
+
+</LinearLayout>
