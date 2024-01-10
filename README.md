@@ -16,6 +16,8 @@ Hotel filters :
 5. Minimum hotel rating
 6. maximum price
 
+There is a recording attachment of running the system, under Recording (29-05-2023 22-59-44) folder.
+
 # System installation
 Required environment and required tools:
 
