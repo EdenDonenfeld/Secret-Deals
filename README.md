@@ -22,7 +22,7 @@ Required environment and required tools:
 _For the server:_ 
 IDLE for the python language, version 3.9 and downloading socket, sqlite3 and rsa libraries.
 
-_For the customer:_ 
+_For the client:_ 
 Studio Android software, and downloading an Emulator, or connecting a phone with Android operating system to a computer.
 A stable internet connection is required in order to create a connection between the client and the server, by sockets.
 
