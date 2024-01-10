@@ -1,5 +1,5 @@
 # Secret-Deals
-The subject of the project is client-server software that searches for and displays as a result the most profitable deal for a selected destination in a date range, according to filters chosen by the customer.
+The subject of the project is client-server software that searches for and displays as a result the most profitable deal for a selected destination in a date range, according to filters chosen by the client.
 
 Each customer enters departure city, landing city, date of departure, date of landing and number of passengers. It is also possible to enter flight filters and hotel filters.
 
