@@ -18,6 +18,15 @@ Hotel filters :
 
 **There is a recording attachment of running the system, under Recording (29-05-2023 22-59-44) folder.**
 
+The client is an Android application that passes to the server the filters that the client entered for their vacation, and the server returns three links.
+
+One for the most affordable and cheap flight.
+
+Second for the most recommended hotel on the vacation booking site.
+
+The third for attractions and information about the landing place for the customer.
+
+
 # System installation
 Required environment and required tools:
 
